@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  color: rgb(19, 29, 37);
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(19, 29, 37);
+  color: white;
+}
+
+button:disabled {
+  cursor: default;
+  background-color: gray;
+  color: rgb(195, 195, 195);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  color: rgb(19, 29, 37);
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
